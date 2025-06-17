@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
-import useFetch from '../hooks/useFetch';
+import { useFetch } from '../hooks/useFetch';
 import validateManyFields from '../validations';
 import Input from './utils/Input';
 import Loader from './utils/Loader';
